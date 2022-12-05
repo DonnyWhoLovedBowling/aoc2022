@@ -2,7 +2,7 @@ f = open('../data/ex4.txt')
 lines = f.readlines()
 
 score1 = 0
-score2 =0
+score2 = 0
 for line in lines:
     elfs = line.replace('\n', '').split(',')
     elf1 = elfs[0].split('-')
