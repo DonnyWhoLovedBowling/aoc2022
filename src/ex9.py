@@ -35,6 +35,3 @@ for line in lines:
 
 print(Ts)
 print(len(Ts))
-
-
-
