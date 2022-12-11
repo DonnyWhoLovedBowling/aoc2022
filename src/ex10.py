@@ -26,7 +26,7 @@ for line in lines:
             CRT += '#'
         else:
             CRT += '.'
-    sprite = [register+i for i in range(-1, 2, 1)]
+    sprite = [register+i for i in[-1, 0, 1]]
 
 print(score)
 for i in range(0, len(CRT), 40):
