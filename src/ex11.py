@@ -57,9 +57,7 @@ for play_round in range(0, end):
                 new = old * op_num[monkey]
             if ex == 'a':
                 new = floor(new/3)
-                test = ((new % test_num[monkey]) == 0)
-            elif ex == 'b':
-                test = ((new % test_num[monkey]) == 0)
+            test = ((new % test_num[monkey]) == 0)
             new_monkey = decision_map[monkey][test]
             action_dict[new_monkey].append(new % tot_mod)
             if monkey in monkey_counter.keys():
