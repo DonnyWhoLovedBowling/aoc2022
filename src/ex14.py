@@ -55,12 +55,7 @@ while True:
                     rocks.add(sand)
                     sand = start
                     break
-                else:
-                    sand = new_sand
-            else:
-                sand = new_sand
-        else:
-            sand = new_sand
+        sand = new_sand
         if sand[1] >= bottom:
             break
     if new_sand[1] >= bottom and new_sand not in rocks:
